@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תלחצו על הכפתור</title>
+    
+
+
+</head>
+<body>
+    <img src="light-off.png" id="bulb-img">
+    <button onclick="toggleLight()"> Click Switch </button> 
+
+    <img src="https://media.ksp.co.il/fdcmi55eqv5eqk3t8emkh.jpg" width="1000px" height="470px" id="https://www.google.com/url?sa=i&url=https%3A%2F%2Fksp.co.il%2Fmob%2Fitem%2F71582&psig=AOvVaw0VSfwGqi0TCs3LfXJ5a6Qg&ust=1718292730789000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLD_-rCx1oYDFQAAAAAdAAAAABAE">  
+    <button onclick="lol()"> Click Switch </button> 
+
+    <img src="https://media.ksp.co.il/28lhur9b3ckjba30l0d2v.jpg" width="950px"   id="https://www.google.com/url?sa=i&url=https%3A%2F%2Fksp.co.il%2Fmob%2Fitem%2F71578&psig=AOvVaw0bUtIf2Nkmqc-ZyACWgS7r&ust=1718295973812000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCKCXybu91oYDFQAAAAAdAAAAABAE">
+    <button onclick="gogo()"> Click Switch </button> 
+
+
+
+
+
+
+
+
+</body>
+   
+<script>
+    function toggleLight() {
+      const imgTag = document.getElementById('bulb-img');
+      const imgSrc = imgTag.src;
+
+      if(imgSrc.includes('off')) {
+          imgTag.src = 'light-on.png';
+      } else {
+          imgTag.src = 'light-off.png';
+      }
+  }
+   
+
+    function lol() {
+      const imgTag = document.getElementById('https://www.google.com/url?sa=i&url=https%3A%2F%2Fksp.co.il%2Fmob%2Fitem%2F71582&psig=AOvVaw0VSfwGqi0TCs3LfXJ5a6Qg&ust=1718292730789000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLD_-rCx1oYDFQAAAAAdAAAAABAE');
+      const imgSrc = imgTag.src;
+
+      if(imgSrc.includes('fdcmi55eqv5eqk3t8emkh')) {
+          imgTag.src = 'https://media.ksp.co.il/48q9nz5z73eu6ooz2zkun.jpg';
+      } else {
+          imgTag.src = 'https://media.ksp.co.il/fdcmi55eqv5eqk3t8emkh.jpg';
+      }
+  }   
+   
+   
+   
+  function  gogo() {
+      const imgTag = document.getElementById('https://www.google.com/url?sa=i&url=https%3A%2F%2Fksp.co.il%2Fmob%2Fitem%2F71578&psig=AOvVaw0bUtIf2Nkmqc-ZyACWgS7r&ust=1718295973812000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCKCXybu91oYDFQAAAAAdAAAAABAE');
+      const imgSrc = imgTag.src;
+
+      if(imgSrc.includes('28')) {
+          imgTag.src = 'https://media.ksp.co.il/02nkg2r42ln6uuycw1ecq.jpg';
+      } else {
+          imgTag.src = 'https://media.ksp.co.il/28lhur9b3ckjba30l0d2v.jpg';
+      }
+  }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </script>
